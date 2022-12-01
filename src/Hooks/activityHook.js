@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 // API
-import { getActivity, getAverage, getPerformance, getUser } from '../API/userApi'
+// import { getActivity, getAverage, getPerformance, getUser } from '../API/userApi'
 
 
 //Api Mock
-// import { getActivity, getUser, getAverage, getPerformance } from '../API/userApiMock'
+import { getActivity, getUser, getAverage, getPerformance } from '../API/userApiMock'
 
 //constructor
 import { activity } from '../Constructor/activity';
